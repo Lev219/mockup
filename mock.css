@@ -1,0 +1,49 @@
+@font-face{
+    font-family:'Inconsolata_SemiExpanded-Light' ;
+    src:url('../Inconsolata_SemiExpanded-Light.ttf')}
+  body{font-family:'Inconsolata_SemiExpanded-Light'}
+  p{font-family:'Inconsolata_SemiExpanded-Light'}
+
+  body {
+    background-color: rgb(222, 233, 237);
+  }
+
+.title{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.link{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+
+}
+
+video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    display: block;
+    margin: 0 auto;
+
+
+}
+img{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.comments{
+    font-size: 40px;
+}
