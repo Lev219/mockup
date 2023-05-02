@@ -1,8 +1,16 @@
-@font-face{
-    font-family:'Inconsolata_SemiExpanded-Light' ;
-    src:url('../Inconsolata_SemiExpanded-Light.ttf')}
-  body{font-family:'Inconsolata_SemiExpanded-Light'}
-  p{font-family:'Inconsolata_SemiExpanded-Light'}
+@font-face {
+    font-family: 'Inconsolata SemiExpanded';
+    src: url('InconsolataSemiExpanded-Light.woff2') format('woff2'),
+        url('InconsolataSemiExpanded-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+  body{font-family: 'Inconsolata SemiExpanded';}
+  p{font-family: 'Inconsolata SemiExpanded';}
 
   body {
     background-color: rgb(222, 233, 237);
